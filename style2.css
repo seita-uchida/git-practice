@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 232, 192);
+    margin: 36px 20%;
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 48px;
+    color: rgb(54, 78, 150);
+    text-align: center;
+    color: #364e96;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 3px #364e96;/*上線*/
+    border-bottom: solid 3px #364e96;/*下線*/
+}
+
+h2{
+    background-color: rgb(54, 78, 150);
+    color: rgb(255, 255, 255);
+    padding: 0.5em;
+    position: relative;
+    margin-top: 64px;
+}
+
+h2:hover{
+    color: rgb(54, 78, 150);
+    background: rgb(255, 255, 255);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+
+
+h2::before{
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px rgb(82, 99, 93);
+}
+.ramen-image{
+    width: 60%;
+    /* height: 60%; */
+    margin: 24px 20%;
+}
+
+/* .ramen{
+    text-align: center;
+} */
